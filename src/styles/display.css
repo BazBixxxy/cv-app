@@ -1,0 +1,122 @@
+section {
+  margin-left: 5rem;
+  padding: 2rem;
+  width: 550px;
+  height: 900px;
+  border: 1px solid var(--primary-color);
+  border-radius: 2px;
+}
+
+section h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h5 {
+  margin-top: 5px;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+p {
+  font-weight: 100;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+section .positions-held {
+  margin-top: 2rem;
+}
+
+.positions-held h2 {
+  margin-top: 1rem;
+  margin-bottom: .8rem;
+}
+
+section .date {
+  color: var(--date-color);
+  font-size: 0.8rem;
+}
+
+section div {
+  margin-bottom: 0.5rem;
+}
+
+.education-display {
+  margin-bottom: 1rem;
+}
+
+.education-display h2 {
+  margin-top: 1rem;
+  margin-bottom: .8rem;
+}
+
+.skills-display h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skills-display ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills-display ul li {
+  font-size: 0.7em;
+  padding: 10px;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  color: var(--secondary-color);
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.close {
+  background: none;
+  color: var(--secondary-color);
+  font-size: 1rem;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  margin-left: 9px;
+}
+
+section .email {
+  display: inline;
+  margin-right: 1rem;
+  color: var(--date-color);
+  cursor: pointer;
+}
+
+section .phone {
+  display: inline;
+  color: var(--date-color);
+  cursor: pointer;
+}
+
+.show {
+  display: inline;
+  font-size: 1rem;
+  transition: none;
+}
+
+.show:hover {
+  color: var(--date-color);
+}

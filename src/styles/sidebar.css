@@ -1,0 +1,132 @@
+aside {
+  width: 600px;
+  padding-bottom: 50px;
+  position: absolute;
+  right: 0;
+}
+
+input {
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  width: 14rem;
+}
+
+textarea {
+  padding: 0.5rem;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  height: 100%;
+  grid-template-areas:
+    "job name"
+    "email phone"
+    "bio bio"
+    "positions positions"
+    "pos1 pos2"
+    "education education"
+    "edu1 edu2"
+    "skills skills"
+    "skillset skillset";
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 32rem;
+  height: 7rem;
+  border: 1px solid var(--primary-color);
+  resize: none;
+}
+
+.job {
+  grid-area: job;
+}
+
+.name {
+  grid-area: name;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.bio {
+  grid-area: bio;
+}
+
+.skillset div {
+  display: flex;
+  align-items: center;
+}
+
+.skillset2 {
+  grid-area: skillset2;
+}
+
+.positions {
+  grid-area: positions;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.pos1 {
+  grid-area: pos1;
+}
+.pos2 {
+  grid-area: pos2;
+}
+.pos3 {
+  grid-area: pos3;
+}
+
+.education {
+  grid-area: education;
+}
+
+.edu1 {
+  grid-area: edu1;
+}
+.edu2 {
+  grid-area: edu2;
+}
+
+.skillset {
+  grid-area: skillset;
+}
+
+input[type="checkbox"] {
+  width: 1rem;
+  margin-bottom: 2px;
+  margin-right: 7px;
+  display: inline;
+}
+
+form button {
+  transition: none;
+}
+
+form button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+label[for="from"] {
+  margin-top: 5px;
+}
+
+@media (max-width: 1200px) {
+  aside {
+    width: 400px;
+  }
+
+  section {
+    margin-left: 0;
+  }
+}
